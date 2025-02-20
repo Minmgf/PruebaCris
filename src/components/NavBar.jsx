@@ -7,7 +7,7 @@ function NavBar() {
             <nav className='bg-[#DCF2F1] text-black px-5 py-1 md:py-0'>
                 <div className="mx-auto flex justify-between items-center w-full">
                     <div className='flex '>
-                        <Link to="/">
+                        <Link to="/login">
                             <img src="/img/logo.png" alt="Logo" className='w-[50%]' />
                         </Link>
                     </div>
