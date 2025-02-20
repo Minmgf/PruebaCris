@@ -9,8 +9,6 @@ const AppRouter = () => {
         <Route path='/login' element={<Login />} />
         <Route path='/' element={<Home />} />
     </Routes>
-    
-
   )
 }
 
