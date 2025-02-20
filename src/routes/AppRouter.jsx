@@ -6,9 +6,11 @@ import Home from '../Home'
 const AppRouter = () => {
   return (
     <Routes>
+        <Route index element={<Home />} />
         <Route path='/login' element={<Login />} />
-        <Route path='/' element={<Home />} />
     </Routes>
+    
+
   )
 }
 
