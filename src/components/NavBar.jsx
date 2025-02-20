@@ -12,7 +12,7 @@ function NavBar() {
                         </Link>
                     </div>
                     <ul className='flex space-x-2 gap-2 text-sm w-full items-center'>
-                        <Link>
+                        <Link to={'/test'}>
                             <li className='text-center h-full px-3 py-5 font-semibold hover:text-white hover:bg-[#003F88] transition-all duration-300 ease-in-out'>Perfil</li>
                         </Link>
                         <Link>
