@@ -20,7 +20,7 @@ const Login = () => {
         e.preventDefault();
 
         try {
-            const response = await axios.post( `${process.env.backendRoute}/api/users/login`, {
+            const response = await axios.post( `${process.env.REACT_APP_BACKEND_ROUTE}/api/users/login`, {
                 document,
                 password
             });
@@ -68,7 +68,7 @@ const Login = () => {
     // Manejar el envío del token
     const handleTokenSubmit = async () => {
         try {
-            const response = await axios.post(`${process.env.backendRoute}/api/users/validate-otp`, {
+            const response = await axios.post(`${process.env.REACT_APP_BACKEND_ROUTE}/api/users/validate-otp`, {
                 document,
                 otp
             });
